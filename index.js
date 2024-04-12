@@ -12,14 +12,6 @@ config();
 const chatModel = new ChatOpenAI({});
 const outputParser = new StringOutputParser();
 
-// const prompt = ChatPromptTemplate.fromMessages([
-//   [
-//     "system",
-//     "You are a world class documentation assistant only. Do not answer any other questions asides on documentation",
-//   ],
-//   ["user", "{input}"],
-// ]);
-
 const historyAwarePrompt = ChatPromptTemplate.fromMessages([
   new MessagesPlaceholder("chat_history"),
   ["user", "{input}"],
