@@ -1,8 +1,8 @@
 # Langchain Tutorial
 
-This repository contains a code for a simple chatbot built with OpenAI, JavaScript, and LangChain.
+This repository contains code for a simple chatbot built with OpenAI, JavaScript, and LangChain.
 
-See the Video Tutorial: 
+See the Video Tutorial: https://www.youtube.com/watch?v=wIHf8Canc9w
 
 ## Dependencies
 * [OpenAI](https://openai.com/)
